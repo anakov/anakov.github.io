@@ -1,0 +1,7 @@
+
+*.txt
+*0.html
+.DS_Store
+files/*/.DS_Store
+others
+_old/*

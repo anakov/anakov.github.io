@@ -1,0 +1,265 @@
+
+
+@import url("http://fonts.googleapis.com/css?family=Helvetica:200,300italic,400,400italic,500,500italic,600,600italic");
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,600,600italic");
+
+*{
+  font-family:'Roboto','Helvetica',sans-serif;
+  margin:0px;
+  padding:0px;
+  color:inherit;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4em;
+  text-decoration:none;
+  background-color:inherit;
+  -webkit-text-size-adjust:none;
+}
+
+/*******************************************************************************
+ MAIN ELEMENTS
+*******************************************************************************/
+
+html{
+  background-color:white;
+  padding:30px;
+}
+body{
+  min-width:880px;
+  max-width:1100px;
+  color:#494949;
+  background-color:white;
+  margin:0px auto 500px auto;
+  padding:0px auto 500px auto;
+}
+div,p,span,a,i,ul,ol,li{
+  font-size:inherit;
+  color:inherit;
+  text-decoration:inherit;
+}
+p,div{
+  margin-top:3px;
+}
+a{
+  color:#374A74;
+}
+a:hover{
+  color:blue;
+  cursor:pointer;
+  text-decoration:none;
+}
+a.button{
+  border: 1px gray solid;
+  border-radius:5%;
+  background-color: #F1F1F1;
+  padding: 2px 10px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ul{
+  padding: 7px 0px 0px 30px;
+  margin:0px;
+  list-style: circle;
+}
+li{
+  margin-bottom:10px;
+}
+li:not(:last-child) {
+  margin-bottom:2px;
+}
+u{
+  text-decoration:underline;
+  color:inherit;
+  font-size:inherit;
+  font-weight:inherit;
+  text-align:inherit;
+}
+b{
+  text-decoration:inherit;
+  color:inherit;
+  font-size:inherit;
+  font-weight:bold;
+  text-align:inherit;
+}
+
+/*******************************************************************************
+ STRUCTURE OF THE LAYOUT
+ Header-Header-Header
+ Picture  MainContent
+*******************************************************************************/
+
+body{
+  display:grid;
+  grid-template-columns: 200px auto;
+  grid-column-gap:40px;
+  grid-row-gap:20px;
+}
+header{
+  grid-column: 1/3;
+  padding-bottom:15px;
+  border-bottom:2px solid gray;
+  background-color:white;
+}
+maincontent{
+  grid-column: 2;
+  background-color:white;
+}
+photo{
+  grid-column: 1;
+  background-color:white;
+  text-align:center;
+}
+.mainpic{
+  width:100%;
+  margin:0px auto 8px auto;
+  border:3px grey solid;
+  border-radius:100%;
+  text-align:center;
+}
+
+/*******************************************************************************
+ HEADER
+*******************************************************************************/
+
+.title{
+  color:#006400;
+  text-align:left;
+  font-size:250%;
+  display:block;
+}
+.subtitle{
+  color:gray;
+  text-align:left;
+  font-size:140%;
+  line-height:1;
+  display:block;
+}
+
+/*******************************************************************************
+ MAIN CONTENT
+*******************************************************************************/
+
+.section{
+  margin-bottom:25px;
+  width:100%;
+}
+h1{
+  margin-bottom:15px;
+  color:#006400;
+  font-size:140%;
+  font-weight:200;
+}
+h2{ /*paper*/
+  color:#006400;
+  font-size:inherit;
+}
+.subsection{
+  margin-bottom:15px;
+  line-height:1.6;
+  width:100%;
+}
+
+/*******************************************************************************
+ OTHER COMMANDS
+*******************************************************************************/
+
+.hidden{
+  display:none;
+  font-size:inherit;
+}
+paper{
+  color:#006400;
+  font-size:inherit;
+}
+journal{
+  color:#920000;
+  font-size:inherit;
+}
+color{
+  color:#006400;
+  font-size:inherit;
+}
+.abstract{
+  color:gray;
+  margin-top:8px;
+  color:#616161;
+  text-align:justify;
+}
+button{
+  padding:1px 6px 1px 6px;
+  margin-right:6px;
+  border:solid 1px gray;
+}
+button:hover{
+  background-color:#F1F1F1;
+  color: #006400;
+  border:solid 1px #006400;
+}
+
+/*******************************************************************************
+ FORMAT OF LINKS
+*******************************************************************************/
+
+a.pdf::before,
+a.slides::before,
+a.code::before,
+a.paper::before,
+a.article::before,
+a.github::before,
+a.more::before,
+a.link::before,
+a.less::before,
+a.twitter::before,
+a.google::before,
+a.cunef::before,
+a.address::before{
+  font-family: "FontAwesome";
+  font-size:80%;
+  color:#006400;
+  margin:0px;
+  padding:0px;
+  margin-right:6px;
+  margin-left:3px;
+}
+
+a.paper::before{    content: "\f0f6 ";}
+a.article::before{  content: "\f02d ";}
+a.pdf::before{      content: "\f1c1 ";}
+a.slides::before{   content: "\f1c4 ";}
+a.code::before{     content: "\f1c9 ";}
+a.github::before{   content: "\f09b ";}
+a.more::before{     content: "\f196 ";}
+a.less::before{     content: "\f147 ";}
+a.link::before{     content: "\f08e ";}
+a.twitter::before{  content: "\f099 ";}
+a.address::before{  content: "\f003 ";}
+a.google::before{   content: "\f1a0 ";}
+a.cunef::before{    content: "\f19c ";}
+
+a.plus,a.minus{
+  margin-right:3px;
+  display: inline-block;
+  margin-top:4px;
+}
+a.plus::after,a.minus::after{
+  font-family: "FontAwesome";
+  margin-left:4px;
+  font-size:70%;
+}
+a.plus::after{
+  content:"\f196";
+}
+a.minus::after{
+  content:"\f147";
+}
+a.empty{
+  color:lightgrey;
+}
+a.empty::before{
+  color:lightgrey;
+}
+a.empty:hover{
+  cursor:not-allowed;
+}
