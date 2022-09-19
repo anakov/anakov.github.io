@@ -1,3 +1,3 @@
-## borjapetit.github.io 
+## anakov.github.io 
 
-This respository includes the codes for my personal webpage https://borjapetit.github.io/
+This respository includes the codes for my personal webpage https://anakov.github.io/
