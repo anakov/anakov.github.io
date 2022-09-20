@@ -202,18 +202,18 @@ button:hover{
  FORMAT OF LINKS
 *******************************************************************************/
 
-a.pdf::before,
-a.slides::before,
-a.code::before,
-a.paper::before,
-a.article::before,
-a.github::before,
-a.more::before,
-a.link::before,
-a.less::before,
-a.twitter::before,
-a.google::before,
-a.cunef::before,
+a.pdf::before{color:#325CA8;},
+a.slides::before{color:#325CA8;},
+a.code::before{color:#325CA8;},
+a.paper::before{color:#325CA8;},
+a.article::before{color:#325CA8;},
+a.github::before{color:#325CA8;},
+a.more::before{color:#325CA8;},
+a.link::before{color:#325CA8;},
+a.less::before{color:#325CA8;},
+a.twitter::before{color:#325CA8;},
+a.google::before{color:#325CA8;},
+a.cunef::before{color:#325CA8;},
 a.address::before{
   font-family: "FontAwesome";
   font-size:80%;
