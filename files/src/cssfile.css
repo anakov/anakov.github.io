@@ -124,7 +124,7 @@ photo{
 *******************************************************************************/
 
 .title{
-  color:blue; 
+  color:#325ca8; 
   text-align:left;
   font-size:250%;
   display:block;
@@ -147,12 +147,12 @@ photo{
 }
 h1{
   margin-bottom:15px;
-  color:blue; 
+  color:#325ca8; 
   font-size:140%;
   font-weight:200;
 }
 h2{ /*paper*/
-  color:blue; 
+  color:#325ca8; 
   font-size:inherit;
 }
 .subsection{
@@ -174,7 +174,7 @@ paper{
   font-size:inherit;
 }
 journal{
-  color:#920000;
+  color:#327fa8;
   font-size:inherit;
 }
 color{
