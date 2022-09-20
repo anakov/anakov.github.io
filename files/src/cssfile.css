@@ -124,7 +124,7 @@ photo{
 *******************************************************************************/
 
 .title{
-  color:blue 
+  color:blue; 
   text-align:left;
   font-size:250%;
   display:block;
@@ -147,12 +147,12 @@ photo{
 }
 h1{
   margin-bottom:15px;
-  color:blue 
+  color:blue; 
   font-size:140%;
   font-weight:200;
 }
 h2{ /*paper*/
-  color:blue 
+  color:blue; 
   font-size:inherit;
 }
 .subsection{
