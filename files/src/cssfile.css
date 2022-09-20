@@ -203,9 +203,7 @@ button:hover{
  FORMAT OF LINKS
 *******************************************************************************/
 
-a.pdf::before{
-  color:#325CA8; 
-},
+a.pdf::before,
 a.slides::before,
 a.code::before,
 a.paper::before,
