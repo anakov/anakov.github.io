@@ -124,13 +124,13 @@ photo{
 *******************************************************************************/
 
 .title{
-  color:#325CA8; 
+  color:#5671B0;
   text-align:left;
   font-size:250%;
   display:block;
 }
 .subtitle{
-  color:#73767D;
+  color:gray;
   text-align:left;
   font-size:140%;
   line-height:1;
@@ -147,12 +147,12 @@ photo{
 }
 h1{
   margin-bottom:15px;
-  color:#325CA8; 
+  color:#5671B0;
   font-size:140%;
   font-weight:200;
 }
 h2{ /*paper*/
-  color:#325CA8; 
+  color:#5671B0;
   font-size:inherit;
 }
 .subsection{
@@ -170,15 +170,15 @@ h2{ /*paper*/
   font-size:inherit;
 }
 paper{
-  color:#325CA8; 
+  color:#2f477D;
   font-size:inherit;
 }
 journal{
-  color:#327FA8;
+  color:#2f477D;
   font-size:inherit;
 }
 color{
-  color:#325CA8; 
+  color:#006400;
   font-size:inherit;
 }
 .abstract{
@@ -194,7 +194,7 @@ button{
 }
 button:hover{
   background-color:#F1F1F1;
-  color: #006400;
+  color: #2f477D;
   border:solid 1px #006400;
 }
 
