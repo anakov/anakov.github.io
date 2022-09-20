@@ -198,7 +198,6 @@ button:hover{
   border:solid 1px #006400;
 }
 
-
 /*******************************************************************************
  FORMAT OF LINKS
 *******************************************************************************/
@@ -214,6 +213,16 @@ a.link::before,
 a.less::before,
 a.twitter::before,
 a.google::before,
+a.cunef::before,
+a.address::before{
+  font-family: "FontAwesome";
+  font-size:80%;
+  color:#006400;
+  margin:0px;
+  padding:0px;
+  margin-right:6px;
+  margin-left:3px;
+}
 
 a.paper::before{    content: "\f0f6 ";}
 a.article::before{  content: "\f02d ";}
@@ -227,6 +236,7 @@ a.link::before{     content: "\f08e ";}
 a.twitter::before{  content: "\f099 ";}
 a.address::before{  content: "\f003 ";}
 a.google::before{   content: "\f1a0 ";}
+a.cunef::before{    content: "\f19c ";}
 
 a.plus,a.minus{
   margin-right:3px;
