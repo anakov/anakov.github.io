@@ -1,3 +1,3 @@
 ## anakov.github.io 
 
-This respository includes the codes for my personal webpage https://anakov.github.io/
+This respository contains the codes for my website https://anakov.github.io/
