@@ -178,7 +178,7 @@ journal{
   font-size:inherit;
 }
 color{
-  color:#006400;
+  color:#5671B0;
   font-size:inherit;
 }
 .abstract{
@@ -195,7 +195,7 @@ button{
 button:hover{
   background-color:#F1F1F1;
   color: #2f477D;
-  border:solid 1px #006400;
+  border:solid 1px ##5671B0;
 }
 
 /*******************************************************************************
@@ -217,7 +217,7 @@ a.cunef::before,
 a.address::before{
   font-family: "FontAwesome";
   font-size:80%;
-  color:#006400;
+  color:#5671B0;
   margin:0px;
   padding:0px;
   margin-right:6px;
