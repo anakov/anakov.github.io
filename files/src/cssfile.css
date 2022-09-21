@@ -45,7 +45,7 @@ a{
   color:#374A74;
 }
 a:hover{
-  color:blue;
+  color:rgb(68, 68, 201);
   cursor:pointer;
   text-decoration:none;
 }
