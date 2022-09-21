@@ -194,8 +194,8 @@ button{
 }
 button:hover{
   background-color:#F1F1F1;
-  color: #2f477D;
-  border:solid 1px ##5671B0;
+  color: blue;
+  border:solid 1px blue;
 }
 
 /*******************************************************************************
