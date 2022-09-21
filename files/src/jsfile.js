@@ -8,6 +8,12 @@ $('a[id=ecb]'        ).attr('href','https://www.ecb.int');
 
 $('a[id=jim]'          ).attr('href','https://sites.google.com/site/jimcostain/');
 $('a[id=borja]'        ).attr('href','https://www.cunef.edu/en/claustro/petit-zarzalejos-borja-maria/');
+$('a[id=peter]'        ).attr('href','https://sites.google.com/site/pkaradi696/');
+$('a[id=galo]'        ).attr('href','https://www.galonuno.com/');
+$('a[id=carlos]'        ).attr('href','https://sites.google.com/site/carlosthomaseconweb/Home/');
+$('a[id=max]'        ).attr('href','https://maxgillman.com/');
+$('a[id=billi]'        ).attr('href','http://www.rmbilli.com/');
+$('a[id=gali]'        ).attr('href','https://crei.cat/people/gali/');
 
 /* Defined links options *******************************************************/
 
