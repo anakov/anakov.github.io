@@ -117,6 +117,7 @@ photo{
   border:0px grey solid;
   border-radius:100%;
   text-align:center;
+  list-style: square;
 }
 
 /*******************************************************************************
