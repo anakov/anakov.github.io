@@ -61,7 +61,7 @@ a.button{
 ul{
   padding: 7px 0px 0px 30px;
   margin:0px;
-  list-style: circle;
+  list-style: square;
 }
 li{
   margin-bottom:10px;
