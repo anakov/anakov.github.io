@@ -15,6 +15,10 @@ $('a[id=max]'        ).attr('href','https://maxgillman.com/');
 $('a[id=billi]'        ).attr('href','http://www.rmbilli.com/');
 $('a[id=gali]'        ).attr('href','https://crei.cat/people/gali/');
 $('a[id=weber]'        ).attr('href','https://www.bundesbank.de/en/henning-weber');
+$('a[id=mishel]'        ).attr('href','https://sites.google.com/view/mishel-ghassibe');
+$('a[id=ernesto]'        ).attr('href','https://sites.google.com/site/pastenernesto/');
+$('a[id=dominik]'        ).attr('href','https://sites.google.com/site/dominikthaler/');
+
 
 /* Defined links options *******************************************************/
 
