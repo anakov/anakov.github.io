@@ -102,6 +102,17 @@
     </p>
   </div>
 
+ <div class="subsection">
+    <h2>Solving nonlinear rational inattention models: Methods, toolkit, and applications to nominal prices </h2>
+    w/ <a id="jim">James Costain</a><br>
+    <a class="more" onclick="showhide('abswp31')">Abstract</a>&nbsp;
+    <a class="slides" href="https://drive.google.com/file/d/1mDW1uw2M224nS1S2ZHeZ6izGZ35yGy9F/view?usp=share_link">Slides</a>&nbsp;
+    <a class="code" href="https://drive.google.com/file/d/12IX6fcLWJWxUzRuTBLKYkqfp1OFOST3h/view?usp=share_link">Codes</a>
+    <p id="abswp31" class="abstract" style="display:none">
+    This paper reviews recent methods for solving nonlinear rational inattention (RI) problems. We first define control cost (CC) problems, which have a simple solution with a weighted logit policy. We leverage the result of Matejka and McKay (2015) that an RI problem is a CC problem with optimal weights in the logit policy. All the main algorithms for solving nonlinear RI models boil down to alternative methods for finding the optimal weights in the logit, and then applying these weights to a CC problem. We then provide a Python toolkit for solving CC and RI models, and discuss how these methods can be applied, in practice, to modeling nominal price rigidity. We compare the RI solution to a CC solution that approximates it. The CC solution is orders of magnitude faster, but in the retail price application it approximates the RI value function, RI policy function, and RI impulse response functions very accurately.
+    </p>
+  </div>
+
   <div class="subsection">
     <h2>Rational inattention and retail price dynamics </h2>
     w/ <a id="jim">James Costain</a> and <a id="rodari">Federico Rodari</a><br>
@@ -111,17 +122,6 @@
     <!-- <a class="code empty">Codes</a> -->
     <p id="abswp3" class="abstract" style="display:none">
     This paper models the adjustment of regular and sales prices in retail microdata under the assumption that precise decision-making is costly. We build on two related approaches: “control costs” and “rational inattention”. We adapt and extend the equivalence results proved by Steiner et al. (2017) to the retail pricing context in order to build a tractable control cost model that approximates the solution of the rational inattention model. We calibrate the approximate rational inattention model to microdata from supermarkets to study retail price dynamics. Using our simulated model to diagnose the roles of stochastic price discrimination versus the inherent discreteness of the rational inattention solution as drivers of retail prices, we find that the former helps explain the “jumpiness” of retail sales, while the latter helps explain the “stickiness” of nominal prices and of nominal price points. Our model also suggests that limited memory, in addition to limited information processing capability, may play a role in nominal rigidity.
-    </p>
-  </div>
-
-  <div class="subsection">
-    <h2>Solving nonlinear rational inattention models: Methods, toolkit, and applications to nominal prices </h2>
-    w/ <a id="jim">James Costain</a><br>
-    <a class="more" onclick="showhide('abswp31')">Abstract</a>&nbsp;
-    <a class="slides" href="https://drive.google.com/file/d/1mDW1uw2M224nS1S2ZHeZ6izGZ35yGy9F/view?usp=share_link">Slides</a>&nbsp;
-    <a class="code" href="https://drive.google.com/file/d/12IX6fcLWJWxUzRuTBLKYkqfp1OFOST3h/view?usp=share_link">Codes</a>
-    <p id="abswp31" class="abstract" style="display:none">
-    This paper reviews recent methods for solving nonlinear rational inattention (RI) problems. We first define control cost (CC) problems, which have a simple solution with a weighted logit policy. We leverage the result of Matejka and McKay (2015) that an RI problem is a CC problem with optimal weights in the logit policy. All the main algorithms for solving nonlinear RI models boil down to alternative methods for finding the optimal weights in the logit, and then applying these weights to a CC problem. We then provide a Python toolkit for solving CC and RI models, and discuss how these methods can be applied, in practice, to modeling nominal price rigidity. We compare the RI solution to a CC solution that approximates it. The CC solution is orders of magnitude faster, but in the retail price application it approximates the RI value function, RI policy function, and RI impulse response functions very accurately.
     </p>
   </div>
 
