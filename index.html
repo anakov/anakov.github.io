@@ -20,54 +20,38 @@
 
 <body>
 
-<header class="hero-pattern" role="banner" aria-label="Anton Nakov banner">
-  <svg class="pattern-svg" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-    <defs>
-      <pattern id="diag" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(25)">
-        <rect width="6" height="6" fill="#f5f7fb"></rect>
-        <rect x="0" y="0" width="3" height="6" fill="#e9eef8"></rect>
-      </pattern>
-    </defs>
-    <rect width="100%" height="100%" fill="url(#diag)"></rect>
-  </svg>
-
-  <div class="hero-content">
+  <header class="uni-banner">
+  <div class="uni-banner-content">
     <h1>Anton Nakov</h1>
-    <p>Principal Economist, European Central Bank <br>
-       Research Fellow, CEPR <br>
-       PhD, Universitat Pompeu Fabra</p>
+      <p>Principal Economist, European Central Bank <br>
+       Research Fellow, CEPR
+      </p>
   </div>
 </header>
 
 <style>
-  .hero-pattern{
-    position: relative;
-    height: clamp(180px, 14vh, 320px);
-    overflow: hidden;
+  .uni-banner {
+    background: #003399;           /* solid blue — change if needed */
+    color: white;                  /* text color */
+    height: clamp(120px, 18vh, 180px);   /* adjustable height */
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #0b1220;
-    background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
-  }
-  .pattern-svg{
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .hero-content{
-    position: relative;
     text-align: center;
-    max-width: 1000px;
     padding: 1rem;
   }
-  .hero-content h1{
-    margin: 0 0 .25rem 0;
-    font-size: clamp(1.5rem, 2.6vw, 2.2rem);
+
+  .uni-banner-content h1 {
+    margin: 0;
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
     font-weight: 700;
   }
-  .hero-content p{ margin: 0; opacity: .85; }
+
+  .uni-banner-content p {
+    margin: 0.2rem 0 0 0;
+    font-size: clamp(1rem, 1.4vw, 1.2rem);
+    opacity: 0.9;
+  }
 </style>
 
 <photo>
@@ -86,7 +70,7 @@
 <div class="section">
 
   <div class="subsection">
-    Welcome to my website! I am a macroeconomist with interests in pricing, business cycles, and monetary policy. 
+    Welcome to my website! I am a macroeconomist with interests in pricing, business cycles, and monetary policy. <br>
     This is my private website and the views expressed here do not necessarily coincide with those of my employers. <br>
     <br>
     Email: <a href="mailto:anton.nakov@gmail.com">anton.nakov@gmail.com</a>
@@ -95,11 +79,11 @@
  
 </div>
 
-<h1>Work in progress</h1>
+<h1>Research in Progress</h1>
 
 <div class="section" id="working" style="display:block">
 
-    <div class="subsection">
+  <div class="subsection">
     <h2>Strike while the iron is hot: optimal monetary policy under state-dependent pricing</h2> Revise and Resubmit at American Economic Review <br>
     w/ <a id="peter">Peter Karadi, </a> <a id="galo">Galo Nuno, </a> <a id="ernesto">Ernesto Pasten, </a> and <a id="dominik">Dominik Thaler</a> <br>
     <a class="more" onclick="showhide('abswp5')">Abstract</a>&nbsp;
@@ -400,7 +384,7 @@
 
 </div>
 
-<h1>Policy and discussion papers</h1>
+<h1>Policy and Discussion Papers</h1>
 
 <div class="section" id="policy" style="display:block">
 
