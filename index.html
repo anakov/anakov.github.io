@@ -27,6 +27,56 @@
   </div>
 </header>
 
+<!-- HERO BANNER — Option B: inline SVG pattern (small, deterministic, academic look) -->
+<header class="hero-pattern" role="banner" aria-label="Anton Nakov banner">
+  <svg class="pattern-svg" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+    <!-- simple repeating diagonal stripes; replace with any HeroPatterns SVG -->
+    <defs>
+      <pattern id="diag" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(25)">
+        <rect width="6" height="6" fill="#f5f7fb"></rect>
+        <rect x="0" y="0" width="3" height="6" fill="#e9eef8"></rect>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#diag)"></rect>
+  </svg>
+
+  <div class="hero-content">
+    <h1>Anton Nakov</h1>
+    <p>ECB Economist • Research on pricing, business cycles, and monetary policy</p>
+  </div>
+</header>
+
+<style>
+  .hero-pattern{
+    position: relative;
+    height: clamp(180px, 30vh, 320px);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0b1220;
+    background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  }
+  .pattern-svg{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-content{
+    position: relative;
+    text-align: center;
+    max-width: 1000px;
+    padding: 1rem;
+  }
+  .hero-content h1{
+    margin: 0 0 .25rem 0;
+    font-size: clamp(1.5rem, 2.6vw, 2.2rem);
+    font-weight: 700;
+  }
+  .hero-content p{ margin: 0; opacity: .85; }
+</style>
+
 <photo>
   <div class="subsection">
     <img class="mainpic" src="files/img/foto.jpg" alt="Anton Nakov">  
