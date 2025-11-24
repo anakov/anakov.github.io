@@ -4,7 +4,6 @@ $('a[id=upf]').attr('href','https://www.upf.edu/');
 $('a[id=ecb]').attr('href','https://www.ecb.int');
 
 /* People *********************************************************************/
-
 $('a[id=jim]').attr('href','https://sites.google.com/site/jimcostain/');
 $('a[id=borja]').attr('href','https://borjapetit.github.io/');
 $('a[id=peter]').attr('href','https://sites.google.com/site/pkaradi696/');
@@ -57,9 +56,9 @@ $(document).on("click", "a.less", function(event){
 function showhide(xx) {
   var x = document.getElementById(xx)
   if (x.style.display === "none") {
-  $(x).slideDown('slow');
+    $(x).slideDown('slow');
   } else {
-  $(x).slideUp('slow');
+    $(x).slideUp('slow');
   }
 }
 
