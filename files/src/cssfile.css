@@ -99,14 +99,14 @@ body{
 header{
   grid-column: 1/3;
   padding-bottom:15px;
-  border-bottom:2px solid gray;
+  border-bottom:2px solid rgb(128, 128, 128);
   background-color:white;
 }
-maincontent{
+main-content{
   grid-column: 2;
   background-color:white;
 }
-photo{
+user-photo{
   grid-column: 1;
   background-color:white;
   text-align:center;
@@ -173,7 +173,7 @@ paper{
   color:#2f477D;
   font-size:inherit;
 }
-journal{
+journal-item{
   color:#2f477D;
   font-size:inherit;
 }
