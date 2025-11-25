@@ -44,7 +44,7 @@ a{
 a:hover{
   color:rgb(68, 68, 201);
   cursor:pointer;
-  text-decoration:none;
+  text-decoration:underline;
 }
 a.button{
   border: 1px gray solid;
