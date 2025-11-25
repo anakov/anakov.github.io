@@ -226,19 +226,19 @@ a.address::before{
   margin-left:3px;
 }
 
-a.paper::before{    content: "\f0f6 ";}
-a.article::before{  content: "\f02d ";}
-a.pdf::before{      content: "\f1c1 ";}
-a.slides::before{   content: "\f1c4 ";}
-a.code::before{     content: "\f1c9 ";}
-a.github::before{   content: "\f09b ";}
-a.more::before{     content: "\f196 ";}
-a.less::before{     content: "\f147 ";}
-a.link::before{     content: "\f08e ";}
-a.twitter::before{  content: "\f099 ";}
-a.address::before{  content: "\f003 ";}
-a.google::before{   content: "\f1a0 ";}
-a.cunef::before{    content: "\f19c ";}
+a.paper::before{content: "\f0f6 ";}
+a.article::before{content: "\f02d ";}
+a.pdf::before{content: "\f1c1 ";}
+a.slides::before{content: "\f1c4 ";}
+a.code::before{content: "\f1c9 ";}
+a.github::before{content: "\f09b ";}
+a.more::before{content: "\f196 ";}
+a.less::before{content: "\f147 ";}
+a.link::before{content: "\f08e ";}
+a.twitter::before{content: "\f099 ";}
+a.address::before{content: "\f003 ";}
+a.google::before{content: "\f1a0 ";}
+a.cunef::before{content: "\f19c ";}
 
 a.plus,a.minus{
   margin-right:3px;
