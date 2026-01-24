@@ -96,7 +96,7 @@ body{
 header{
   grid-column: 1/3;
   padding-bottom:15px;
-  border-bottom:2px solid orange;
+  border-bottom:2px solid #3a598c;
   background-color:white;
 }
 main-content{
