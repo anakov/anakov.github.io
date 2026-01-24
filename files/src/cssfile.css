@@ -42,9 +42,9 @@ a{
   color:#374A74;
 }
 a:hover{
-  color:blue;
+  color:#5671B0;
   cursor:pointer;
-  text-decoration:underline;
+  text-decoration:none;
 }
 a.button{
   border: 1px gray solid;
