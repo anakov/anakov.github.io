@@ -81,6 +81,11 @@ b{
   text-align:inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /*******************************************************************************
  STRUCTURE OF THE LAYOUT
  Header-Header-Header
