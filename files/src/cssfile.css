@@ -121,6 +121,14 @@ user-photo{
   list-style: square;
 }
 
+.linkedin {
+/*   color: #0077b5; LinkedIn Blue */
+  text-decoration: none;
+}
+
+.linkedin i {
+  margin-right: 5px; /* Space between icon and text */
+}
 /*******************************************************************************
  HEADER
 *******************************************************************************/
