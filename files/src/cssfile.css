@@ -42,7 +42,7 @@ a{
   color:#374A74;
 }
 a:hover{
-  color:#5671B0;
+  color:#058bde;
   cursor:pointer;
   text-decoration:none;
 }
@@ -164,7 +164,7 @@ h1{
 }
 
 h2{ /*paper*/
-  color:#5671B0;
+  color:#2f477D;
   font-size:inherit;
 }
 .subsection{
